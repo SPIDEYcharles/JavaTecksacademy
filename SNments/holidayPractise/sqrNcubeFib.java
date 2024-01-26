@@ -1,7 +1,8 @@
-public class evenoddfib {
+package SNments.holidayPractise;
+public class sqrNcubeFib {
     public static void main(String[] args) {
         int a =0,b=1,c = 0;
-        int n = 9;
+        int n = 10;
         for (int i = 0; i < n; i++) {
             
             c = a+b;
@@ -10,12 +11,7 @@ public class evenoddfib {
             
             
             
-            if (c%2==0) {
-                System.out.println(c+ " is even");
-            }
-            else{
-                System.out.println(c +" is odd");
-            }
+            System.out.println(c+"-->"+(c*c)+"  "+(c*c*c));
         }
     }
 }

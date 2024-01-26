@@ -1,4 +1,5 @@
-public class fibinoci {
+package SNments.holidayPractise;
+public class evenoddfib {
     public static void main(String[] args) {
         int a =0,b=1,c = 0;
         int n = 9;
@@ -10,7 +11,12 @@ public class fibinoci {
             
             
             
-            System.out.println(c);
+            if (c%2==0) {
+                System.out.println(c+ " is even");
+            }
+            else{
+                System.out.println(c +" is odd");
+            }
         }
     }
 }

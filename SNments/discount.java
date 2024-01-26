@@ -1,3 +1,4 @@
+package SNments;
 public class discount {
     public static void main(String[] args) {
         double cost = 12;

@@ -1,3 +1,4 @@
+package SNments;
 import java.util.Scanner;
 
 public class maxodthree {

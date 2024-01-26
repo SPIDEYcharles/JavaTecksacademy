@@ -1,3 +1,4 @@
+package SNments.holidayPractise;
 import java.util.*;
 public class shoppingMall {
     public static void main(String[] args) {

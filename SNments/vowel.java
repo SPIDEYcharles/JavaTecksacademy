@@ -1,3 +1,4 @@
+package SNments;
 import java.util.*;
 
 public class vowel {

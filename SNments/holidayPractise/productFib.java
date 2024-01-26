@@ -1,19 +1,20 @@
-public class secondMaxfib {
+package SNments.holidayPractise;
+public class productFib {
     public static void main(String[] args) {
-        int a =0,b=1,c = 0,seconLast=0;
+        int a = 0,b = 1,c = 0,secL = 0;
         int n = 10;
+        long prod = 1;
         for (int i = 0; i < n; i++) {
             
             c = a+b;
-            seconLast = a;
+            secL = a;
             a = b;
             b = c;
+            prod*=c;
             
             
             
-            System.out.println(c);
-
         }
-        System.out.println(b-seconLast+" is second max in fib");
+        System.out.println(prod);
     }
 }

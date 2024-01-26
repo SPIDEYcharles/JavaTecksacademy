@@ -1,3 +1,4 @@
+package SNments.holidayPractise;
 import java.util.Scanner;
 
 public class prime1 {

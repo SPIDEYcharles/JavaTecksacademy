@@ -1,3 +1,4 @@
+package SNments;
 import java.util.*;
 public class timegreet{
     public static void main(String[] args) {
